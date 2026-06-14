@@ -1,13 +1,13 @@
 cask "port-monitor" do
-  version "1.4.0"
+  version "1.4.1"
 
   on_arm do
-    sha256 "c2b9657ddd3c0abda217b807ccad4ca1d0c26209f7b1c677d2870a6c4ff43ebc"
+    sha256 "7bd0fbf0701905a6f60c247220544cef24b60942e24767a9294bd3e03c8bc5a2"
 
     url "https://github.com/derenko404/port-monitor-app/releases/download/v#{version}/port-monitor-#{version}-arm64.dmg"
   end
   on_intel do
-    sha256 "94fed2f6e81dc254031520ad5290a4c6a6e2fc74b4f009bea8572bb3dfc270bc"
+    sha256 "51208352a0375fe39aa747befc04696ca1576e3e3b84007d684528ffeabc510d"
 
     url "https://github.com/derenko404/port-monitor-app/releases/download/v#{version}/port-monitor-#{version}-x64.dmg"
   end
